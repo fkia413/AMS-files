@@ -1,8 +1,8 @@
-Howdy!
-I'm **FLOWEY**.
-**FLOWEY** the **FLOWER**!
+Howdy!  
+I'm **FLOWEY**.  
+**FLOWEY** the **FLOWER**!  
 
-You're new to GitHub, aren'tcha?
-Golly, you must be so confused!
-Someone ought to teach you how things _work_ around here!
-I guess little old **me** will have to do...
+You're new to GitHub, aren'tcha?  
+Golly, you must be so confused!  
+Someone ought to teach you how things _work_ around here!  
+I guess little old **me** will have to do...  
