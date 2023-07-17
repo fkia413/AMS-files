@@ -79,3 +79,21 @@ mysql> SELECT *
 |           3 | Spongebob | CirclePants@tv.com |           25 | Q35 8GL  |
 +-------------+-----------+--------------------+--------------+----------+
 1 row in set (0.00 sec)
+
+mysql> UPDATE Customers
+    -> SET name = 'Biscoff', email = 'BiscoffMcFlurry@yummy.com'
+    -> WHERE Customer_ID = 1; 
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from Customers;
++-------------+-----------+-------------------------------------+--------------+----------+
+| customer_id | name      | email                               | house_number | postcode |
++-------------+-----------+-------------------------------------+--------------+----------+
+|           1 | Biscoff   | BiscoffMcFlurry@yummy.com           |           13 | X52 8ZQ  |
+|           2 | Shakira   | hipsdontlie@song.com                |           22 | HO12 54T |
+|           3 | Spongebob | CirclePants@tv.com                  |           25 | Q35 8GL  |
+|           4 | Gary      | SneakySnailWithHighIQ@watchthis.com |            2 | H33 H11  |
+|           5 | Jeff      | MyNameJeff@song.co                  |           17 | O36 8CH  |
++-------------+-----------+-------------------------------------+--------------+----------+
+5 rows in set (0.00 sec)
