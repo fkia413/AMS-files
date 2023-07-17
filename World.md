@@ -113,3 +113,14 @@ mysql> SELECT Continent, COUNT(*) AS number
 | Antarctica    |      5 |
 +---------------+--------+
 7 rows in set (0.00 sec)
+
+mysql> SELECT * FROM (SELECT ROW_NUMBER() OVER() AS ROWNUM, SUM(SurfaceArea) AS AREA, Continent FROM country GROUP BY Continent) AS Tab WHERE ROWN
+UM%2=0;
++--------+-------------+-----------+
+| ROWNUM | AREA        | Continent |
++--------+-------------+-----------+
+|      2 | 31881005.00 | Asia      |
+|      4 | 23049133.90 | Europe    |
+|      6 |  8564294.00 | Oceania   |
++--------+-------------+-----------+
+3 rows in set (0.00 sec)
