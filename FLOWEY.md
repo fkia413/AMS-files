@@ -1,4 +1,4 @@
-![https://static.wikia.nocookie.net/vsdebating/images/6/6e/FtF.jpg/revision/latest/scale-to-width-down/400?cb=20170124155750](image.png)
+!["C:\Users\xmika\OneDrive\Desktop\AMS files\flowey the flower.png"](image.png)
 Howdy!  
 I'm **FLOWEY**.  
 **FLOWEY** the **FLOWER**!  
