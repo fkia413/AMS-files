@@ -97,3 +97,17 @@ mysql> select * from Customers;
 |           5 | Jeff      | MyNameJeff@song.co                  |           17 | O36 8CH  |
 +-------------+-----------+-------------------------------------+--------------+----------+
 5 rows in set (0.00 sec)
+
+mysql> DELETE FROM orders  WHERE order_id=1;   
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from orders;   
++----------+-------------+------------+-------------+
+| order_id | customer_id | product_id | date_placed |
++----------+-------------+------------+-------------+
+|        2 |           4 |          3 | 2023-06-12  |
+|        3 |           2 |          4 | 2023-03-01  |
+|        4 |           3 |          5 | 2023-05-12  |
+|        5 |           5 |          2 | 2023-02-11  |
++----------+-------------+------------+-------------+
+4 rows in set (0.00 sec)
