@@ -12,7 +12,7 @@ Using HAVING, reverse-alphabetically list the last names that are not repeated. 
 Using HAVING, list the last names that appear more than once, from highest to lowest frequency. SELECT last_name, COUNT(*) FROM actor GROUP BY last_name HAVING COUNT(last_name)>1; 
 Which actor has appeared in the most films? SELECT actor_id, COUNT(*) as frequency FROM film_actor GROUP BY actor_id HAVING COUNT(actor_id)>5 ORDER BY COUNT(*) DESC;
 When is 'Academy Dinosaur' due? SELECT (film_id) FROM film WHERE title='Academy Dinosaur'; SELECT (inventory_id) FROM inventory WHERE film_id=1;  SELECT (return_date) FROM rental WHERE inventory_id=1;
-**What is the average runtime of all films?** this is where I got up to Leon, I ran behind a moving car and now I'm **exhausted** HAHA ... 
+**What is the average runtime of all films?** this is where I got up to Leon, I ran behind a moving car and now I'm **exhausted** HAHA HA ...
 List the average runtime for every film category.
 List all movies featuring a robot.
 How many movies were released in 2010?
