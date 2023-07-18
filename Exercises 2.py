@@ -13,7 +13,7 @@ print(books["Margaret Atwood"])
 
 books = {"Kate O\'Hearn":"Pegasus", "Rachel Caine":"Morganville Vampires", "Rick Riordan":"Heroes of Olympus"}
 
-new_book=input("Gimme a name of an author cause my dictionary is smol")
+new_book=input("Gimme a name of an author cause my dictionary is smol: ")
 
 books.sort() #this will change the original list so BE CAREFUL
-print(new_book.join(books))
+print(new_book + ", ".join(books))
