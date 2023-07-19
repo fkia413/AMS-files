@@ -48,8 +48,8 @@ n = 0
 
 while n < 5:
     for i in item_list:
-        print((item_list)) # list needed to be int not str so got rid of [i]
+        print(i) # list needed to be int not str so only left [i] instead of item_list[i]
         n += 5 # added this line to stop the unlooping loop from destroying my pc
 
-print(item_list[5]) # missing parenthesis so added them
+print(item_list[4]) # missing parenthesis so added them, and changed 5 to 4 cause otherwise it would print 6 times
 
