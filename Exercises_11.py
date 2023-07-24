@@ -1,3 +1,5 @@
+# Document exercise - create html webpage with this info
+
 class Student:
     '''Student: declares a class called Student.'''
 
