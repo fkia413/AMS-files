@@ -1,6 +1,7 @@
 # Classes Exercise
 
 class Student:
+    '''Student: declares a class called Student.'''
 
     def __init__(self, name, age, group="student"):
         self.name = name
@@ -16,6 +17,8 @@ average = Cinnabun.average(22, 84, 11)
 
 print (f"wazzaaaaap. i is class. i so smart. i give you average of 3 numbers you gave me wow: average is: {average}") 
 
+if __name__ == '__main__':
+    print(Student("Cinnabunuwu", 22, "1B"))
 
 ### Budget App
 # Goal: “Create a Budget class that can instantiate objects based on different budget categories like food, clothing, and entertainment. 
