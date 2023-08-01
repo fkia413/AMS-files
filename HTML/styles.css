@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(171, 171, 255);
+  }
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+ham {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+} 
+
+/* Added "Ham" as I was trying to style a field in the table and gave it this id */
