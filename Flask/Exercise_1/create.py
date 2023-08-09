@@ -1,4 +1,4 @@
-from appold import db, app, Owner, Car
+from Exercise_1.app import db, app, Owner, Car
 
 with app.app_context():
     db.drop_all() # Delete this line once I've started putting data in my database
